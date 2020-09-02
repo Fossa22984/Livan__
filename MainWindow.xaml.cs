@@ -15,14 +15,18 @@ using System.Windows.Shapes;
 
 namespace NameOrYes
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Fossa22984WindowTest test = new Fossa22984WindowTest();
+            test.Show();
         }
     }
 }
