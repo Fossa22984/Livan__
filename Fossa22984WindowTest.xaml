@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NameOrYes"
         mc:Ignorable="d"
+        
        Title="MainWindow" MinHeight="800" MinWidth="1200" Height="450" Width="900">
     <Grid>
         <Grid.Background>
